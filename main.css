@@ -66,13 +66,12 @@
             font-size: .7em !important;
          }
          body #wrapper .img, html #wrapper img {
-             height: 400px;
-             width: 500px;
+             height: auto;
+             width: 400px;
              border: 1px solid black transparent;
              border-radius:49%;
              padding: 5px !important;
              margin: 0 10px !important;
-             display: inline-flex;
          }
          .responsive {
             width: 100%;
