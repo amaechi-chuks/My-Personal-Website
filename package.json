@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amaechi-chuks/My-Personal-Website.git "
+  },
   "author": "Amaechi-chuks",
   "license": "MIT"
 }
