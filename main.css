@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; }
+  
+  body, html {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: rgb(115, 115, 115) }
+    body a, html a {
+      color: #111;
+      text-decoration: none; }
+    body #wrapper, html #wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%; }
+      body #wrapper #me, html #wrapper #me {
+        color: #000;
+        font-weight: 900;
+        font-size: 3.1em;
+        padding: 0 !important;
+        margin: 0 !important;
+        line-height: 1.1em; }
+      body #wrapper #about, html #wrapper #about {
+        font-size: 1.1em;
+        font-weight: 100 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        color: rgb(242, 242, 242) }
+      body #wrapper #socials, html #wrapper #socials {
+        list-style: none;
+        padding: 5px !important;
+        margin: 10px !important; }
+        body #wrapper #socials li, html #wrapper #socials li {
+          display: inline-block;
+          margin: 0 2px !important;
+          position: relative;
+          border: 1px solid #111;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          transition: .5s ease-in-out;
+         }
+          body #wrapper #socials li:hover, html #wrapper #socials li:hover {
+            border: 1px solid #000;
+            background: #fff;
+            color: #fff;
+         }
+            body #wrapper #socials li:hover a, html #wrapper #socials li:hover a {
+              color: #fff;
+             }
+          body #wrapper #socials li a, html #wrapper #socials li a {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: .7em !important;
+         }
+         body #wrapper .img, html #wrapper img {
+             height: 400px;
+             width: 500px;
+             border: 1px solid black transparent;
+             border-radius:49%;
+             padding: 5px !important;
+             margin: 0 10px !important;
+             display: inline-flex;
+         }
+         .responsive {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
