@@ -65,13 +65,7 @@
             font-weight: bold;
             font-size: .7em !important;
          }
-         body #wrapper .img{
-             height: auto;
-             width: 400px;
-             border: 1px solid black transparent;
-             
-             
-         }
+         
          img{
            border-radius:49%;
            padding: 5px !important;
